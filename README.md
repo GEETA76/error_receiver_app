@@ -1,24 +1,10 @@
-# README
+#  Error Receiver App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a lightweight Rails app to receive and store global errors sent from other Rails applications using the custom `error_tracker` gem.
 
-Things you may want to cover:
+##  Features
 
-* Ruby version
+- Receives POST requests from apps using the gem
+- Stores errors in SQLite using standard Rails scaffold
+- Displays errors with basic UI for monitoring
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
